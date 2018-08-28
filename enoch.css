@@ -1,0 +1,133 @@
+*{
+  /* border:1px solid red; */
+  margin:0;
+  padding:0;
+}
+.row{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    width:8.30%;
+}
+.col-2{
+    width:16.00%;
+}
+.col-3{
+    width:24.99%;
+}
+.col-4{
+    width:33.32%;
+}
+.col-5{
+    width:41.65%;
+}
+.col-6{
+    width:49.98%;
+}
+.col-7{
+    width:58.31%;
+}
+.col-8{
+    width:66.64%;
+}
+.col-9{
+    width:74.97%;
+}
+.col-10{
+    width:83.2%;
+}
+.col-11{
+    width:91.62%;
+}
+.col-12{
+    width:100%;
+}
+.hei{
+    height:11vh;
+    position: fixed;
+    background-color: #fff;
+    z-index: 2 ;
+}
+.type1{
+    text-align:center;
+    text-transform: uppercase;
+}
+.type1_text{
+    font-weight: 300;
+    letter-spacing:5px;
+    font-family: 'Metamorphous', cursive;
+    font-size:1.6vw;
+}
+.type2{
+    text-align:center;
+    text-transform:uppercase;
+}
+.type2_text{
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8vw;
+    display: inline;
+}
+.bg1{
+    background-color: coral
+}
+.MainBg{
+    background-image: url("castle.jpg");
+    height:95vh;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.type3{
+    position: absolute;
+    top:10%;
+    left:23%;
+    text-align: center;
+    font-size:3vw;
+    color: rgba(248, 247, 247, 0.938);
+    font-weight:100;
+    font-family: 'Metamorphous', cursive;
+}
+.type4{
+    display:block;
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+}
+a{
+    color:rgba(0, 0, 0, 0.801);
+    text-decoration: none ;
+}
+.click{
+    position:absolute;
+    top:45%;
+    left:42.5%;
+    width:14%;
+    height:12vh;
+    font-size: 1.7vw;
+    border-radius: 20px;
+    background-color:rgba(95, 38, 17, 0.493);
+    color: #fff;
+    font-family: 'Metamorphous', cursive;
+}
+.type5{
+    position:relative;
+    height:7vh;
+    background-color: rgba(0, 0, 0, 0.822);
+    color:white;
+}
+.type6{
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+.type7{
+    position:absolute;
+    left:50%;
+    top:40%;
+}
+.a2{
+    color:white;
+    font-family: serif;
+}
